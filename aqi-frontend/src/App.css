@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(5px + 2vmin);
+  color: black;
+}
+
+
+.head{
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+
+h3{
+  color: green;
+}
+
+.m-10{
+  margin-bottom: 30px;
+}
+
+label{
+  flex: 1;
+  align-items: start;
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  margin-left: 60px;
+}
+
+.w-100{
+  width: 100%;
+  text-align: start;
+  align-items: end;
+}
+
+
+
+input{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+input::after{
+  border-color: skyblue;
+}
+
+input:active{
+  border-color: skyblue;
+  border: 1px skyblue;
+}
+
+.m-b-10{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.m-b-20{
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+select{
+  padding: 10px;
+  border: 1px green;
+  border-radius: 5px;
+}
+
+.s-btn{
+  background-color: green;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.popup{
+  width: 150%;
+  background-color: green;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+h4{
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+h5{
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+h3{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pimg{
+  justify-content: center;
+  width: 10%;
+  align-items: center;
+}
